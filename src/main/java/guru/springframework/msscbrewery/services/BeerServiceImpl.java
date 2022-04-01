@@ -29,13 +29,13 @@ public class BeerServiceImpl implements BeerService {
     }
 
     @Override
-    public void UpdateBeer(BeerDto beerDto) {
-    // todo impl - would add real impl to update beer
+    public void updateBeer(UUID beerId, BeerDto beerDto) {
+        // todo impl - would add real impl to update beer
     }
 
     @Override
     public void deleteById(UUID beerId) {
-    // todo impl - would add real impl to delete beer
+        // todo impl - would add real impl to delete beer
         log.debug("Deleting a beer ....");
     }
 }
